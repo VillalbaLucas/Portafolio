@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.conteiner {
+    padding: 20px;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 1200px;
+    background-color: #666;
+    border-radius: 10px;
+}
+
+/* Imagen de perfil y nombre */
+
+.header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.header__img {
+    height: 200px;
+    width: 180px;
+    border-radius: 5%;
+    margin-right: -200px;
+}
+
+.header__name {
+   align-self: center;
+    font-size: 30px;
+    margin-left: -200px;
+}
+
+/* Navegacion entre secciones */
+
+.nav {
+    position: relative;
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__section {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.nav__flecha {
+    font-size: 20px;
+}
+
+/*  footer */
+
+.footer {
+
+}

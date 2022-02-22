@@ -8,27 +8,31 @@
     <title>Mi Portafolio</title>
 </head>
 <body>
-    <header>
-        <img src="" alt="Foto de perfil">
-        <label>Hola, soy Lucas Villalba</label>
-    </header>
-    <nav>
-        <ul>
-            <li>Sobre mi</li>
-            <li>Conocimientos</li>
-            <li>Proyectos</li>
-        </ul>
-    </nav>
-    <article>
-        <h3>Descripcion del contenido</h3>
-    </article>
-    <footer>
-        <h2>Contacto</h2>
-        <a href="#">Instagram</a>
-        <a href="#">Github</a>
-        <a href="#">Linkedin</a>
-    </footer>
-
-    
+    <div class="conteiner">
+        <header class="header">
+            <img class="header__img" src="img/Foto-perfil.jpeg" alt="Foto de perfil">
+            <label class="header__name" >Hola, soy Lucas Villalba</label>
+        </header>
+        <nav class="nav">
+            <ul class="nav__conteiner">
+                <span class="nav__flecha left"> < </span>
+                    <a href="#" class="nav__section">Sobre mi</a>
+                    <a href="#" class="nav__section">Conocimientos</a>
+                    <a href="#" class="nav__section">Proyectos</a>
+                <span class="nav__flecha rigth"> > </span>
+            </ul>
+        </nav>
+        <article>
+            <div class="contenido">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, maxime!</p>
+            </div>
+        </article>
+        <footer class="footer">
+            <h4>Contacto</h4>
+            <a href="#">Instagram</a>
+            <a href="#">Github</a>
+            <a href="#">Linkedin</a>
+        </footer>
+    </div>  
 </body>
 </html>
