@@ -5,6 +5,7 @@
 body {
     background-color: #263C4D;
 }
+
 .conteiner {
     position: relative;
     margin: auto;
@@ -12,7 +13,8 @@ body {
     height: 1200px;
     padding: 20px;
     top: 40px;
-    background-color: #3C5466;
+    background-image: radial-gradient(#3C5466 20%, #172E40);
+    background-repeat: repeat;
     border-radius: 20px;
 }
 
@@ -28,6 +30,8 @@ body {
     height: 200px;
     width: 180px;
     border-radius: 50%;
+    border: 1px solid #172E40;
+    box-shadow: 0 0 10px 5px #172E40;
 }
 
 .header__name {
@@ -56,8 +60,42 @@ body {
     font-size: 20px;
 }
 
+/* Descripcion de los contenidos*/
+
+.contenido__conteiner {
+    height: 600px;
+    padding: 20px;
+    background-color: #172E40;
+    border-radius: 10px;
+}
+
+.contenido__conteiner > p {
+    font-size: 20px;
+}
+
 /*  footer */
 
 .footer {
+    position: relative;
+    top: 50px;
+}
+.footer__title {
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.footer__conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__conteiner > a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer__conteiner > a > i {
+    padding: 5px;
 
 }
