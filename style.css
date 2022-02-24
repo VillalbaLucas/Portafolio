@@ -3,17 +3,17 @@
     margin: 0;
 }
 body {
-    display: flex;
-    justify-content: center;
+    background-color: #263C4D;
 }
 .conteiner {
-    padding: 20px;
+    position: relative;
+    margin: auto;
     width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
     height: 1200px;
-    background-color: #666;
-    border-radius: 10px;
+    padding: 20px;
+    top: 40px;
+    background-color: #3C5466;
+    border-radius: 20px;
 }
 
 /* Imagen de perfil y nombre */
@@ -21,29 +21,30 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
+    padding: 40px;
 }
 
 .header__img {
     height: 200px;
     width: 180px;
-    border-radius: 5%;
-    margin-right: -200px;
+    border-radius: 50%;
 }
 
 .header__name {
-   align-self: center;
-    font-size: 30px;
-    margin-left: -200px;
+    align-self: center;
+    position: relative;
+    left: 30px;
+    font-size: 35px;
+    padding-left: 100px;
 }
 
 /* Navegacion entre secciones */
 
 .nav {
-    position: relative;
-    margin: 40px;
     display: flex;
     justify-content: space-around;
+    position: relative;
+    padding: 50px;
 }
 
 .nav__section {
