@@ -1,45 +1,42 @@
 * {
     padding: 0;
     margin: 0;
+    color: #E2E0E0;
 }
-body {
-    background-color: #263C4D;
-}
-
 .conteiner {
-    position: relative;
-    margin: auto;
-    width: 90%;
-    height: 1200px;
-    padding: 20px;
-    top: 40px;
-    background-image: radial-gradient(#3C5466 20%, #172E40);
-    background-repeat: repeat;
-    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient(#3C5466 65%, #172E40);
 }
 
 /* Imagen de perfil y nombre */
 
 .header {
     display: flex;
-    justify-content: center;
-    padding: 40px;
+    height: 400px;
+    justify-content: evenly;
+    padding: 120px;
 }
 
 .header__img {
-    height: 200px;
-    width: 180px;
-    border-radius: 50%;
-    border: 1px solid #172E40;
-    box-shadow: 0 0 10px 5px #172E40;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: 0 0 15px 2px #172E40;
 }
 
 .header__name {
     align-self: center;
     position: relative;
-    left: 30px;
-    font-size: 35px;
-    padding-left: 100px;
+    font-family: 'Nunito', sans-serif;
+    left: 120px;
+    font-size: 70px;
+}
+
+.header__name-resaltar{
+    color: rgba(202, 99, 14, 0.829);
+    font-weight: 200;
 }
 
 /* Navegacion entre secciones */
@@ -52,11 +49,19 @@ body {
 }
 
 .nav__section {
-    font-size: 20px;
+    font-size: 30px;
     margin: 20px;
 }
 
 .nav__flecha {
+    font-size: 30px;
+}
+
+.nav__conteiner > a {
+    text-decoration: none;
+}
+
+.contenido__conteiner > p {
     font-size: 20px;
 }
 
@@ -65,22 +70,21 @@ body {
 .contenido__conteiner {
     height: 600px;
     padding: 20px;
+    margin: 10px;
     background-color: #172E40;
     border-radius: 10px;
 }
 
-.contenido__conteiner > p {
-    font-size: 20px;
-}
 
 /*  footer */
 
 .footer {
     position: relative;
-    top: 50px;
+    padding: 20px;
+    top: 10px;
 }
 .footer__title {
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
     text-align: center;
 }
@@ -92,10 +96,10 @@ body {
 
 .footer__conteiner > a {
     text-decoration: none;
-    padding: 10px;
+    padding: 15px;
+    font-size: 20px;
 }
 
 .footer__conteiner > a > i {
     padding: 5px;
-
 }
