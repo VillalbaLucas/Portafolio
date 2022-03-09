@@ -13,9 +13,9 @@
 
 .header {
     display: flex;
-    height: 400px;
-    justify-content: evenly;
-    padding: 120px;
+    min-height: 400px;
+    justify-content: space-evenly;
+    padding: 200px 80px;
 }
 
 .header__img {
@@ -30,13 +30,12 @@
     align-self: center;
     position: relative;
     font-family: 'Nunito', sans-serif;
-    left: 120px;
-    font-size: 70px;
+    font-weight: 200;
+    font-size: 4em;
 }
 
 .header__name-resaltar{
     color: rgba(202, 99, 14, 0.829);
-    font-weight: 200;
 }
 
 /* Navegacion entre secciones */
@@ -102,4 +101,42 @@
 
 .footer__conteiner > a > i {
     padding: 5px;
+}
+
+/* Responsive */
+
+
+@media only screen and (max-width: 1300px){
+
+    .header__img {
+        margin-right: 30px;
+    }
+
+    .header {
+        padding: 180px 10px; 
+    }
+}
+
+@media only screen and (max-width: 860px){
+
+    .header {
+        display: block;
+        padding: 30px;
+        font-size: 100px;
+    }
+
+    .header__img {
+        position: relative;
+        margin: 0;
+        width: 50%;
+        height: 50%;
+        left: 25%;
+    }
+
+    .header__name {
+        font-size: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
